@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 17, 2024 at 10:35 PM
+-- Generation Time: Aug 17, 2024 at 11:02 PM
 -- Server version: 11.5.2-MariaDB
 -- PHP Version: 8.0.30
 
@@ -37,7 +37,7 @@ CREATE TABLE `datos` (
   `discoL` decimal(8,2) NOT NULL,
   `ramT` decimal(8,2) NOT NULL,
   `ramL` decimal(8,2) NOT NULL,
-  `tx:` decimal(8,2) NOT NULL,
+  `tx` decimal(8,2) NOT NULL,
   `rx` decimal(8,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
